@@ -1,0 +1,18 @@
+1069/1069 [==============================] - 1s 931us/step - loss: 353.2793 - sparse_categorical_crossentropy: 321.1623 - sparse_categorical_accuracy: 0.6797 - scaled_adversarial_loss: 32.1166
+Epoch 2/5
+1069/1069 [==============================] - 1s 773us/step - loss: 214.8577 - sparse_categorical_crossentropy: 195.3239 - sparse_categorical_accuracy: 0.6776 - scaled_adversarial_loss: 19.5335
+Epoch 3/5
+1069/1069 [==============================] - 1s 905us/step - loss: 177.2573 - sparse_categorical_crossentropy: 161.1412 - sparse_categorical_accuracy: 0.6811 - scaled_adversarial_loss: 16.1159
+Epoch 4/5
+1069/1069 [==============================] - 1s 866us/step - loss: 152.8863 - sparse_categorical_crossentropy: 138.9853 - sparse_categorical_accuracy: 0.6831 - scaled_adversarial_loss: 13.9009
+Epoch 5/5
+1069/1069 [==============================] - 1s 866us/step - loss: 168.5606 - sparse_categorical_crossentropy: 153.2343 - sparse_categorical_accuracy: 0.6890 - scaled_adversarial_loss: 15.3262
+458/458 [==============================] - 0s 994us/step - loss: 62.5034 - sparse_categorical_crossentropy: 56.8195 - sparse_categorical_accuracy: 0.7934 - scaled_adversarial_loss: 5.6839
+Prediction [[1.000000e+00 0.000000e+00]
+ [1.000000e+00 0.000000e+00]
+ [1.000000e+00 0.000000e+00]
+ ...
+ [1.000000e+00 4.922726e-34]
+ [1.000000e+00 0.000000e+00]
+ [1.000000e+00 0.000000e+00]]
+{'loss': 62.50339889526367, 'sparse_categorical_crossentropy': 56.8194694519043, 'sparse_categorical_accuracy': 0.7933529019355774, 'scaled_adversarial_loss': 5.683948040008545}
