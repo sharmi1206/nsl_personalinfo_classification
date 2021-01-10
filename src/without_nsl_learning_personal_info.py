@@ -32,13 +32,13 @@ df['Sex'] = df['Sex'].astype('category').cat.codes.astype(np.float32)
 df['Native-country'] = df['Native-country'].astype('category').cat.codes.astype(np.float32)
 df['Salary'] = df['Salary'].astype('category').cat.codes.astype(np.float32)
 
-df_train = df[['Age', 'Workclass', 'fnlwgt', 'Education', 'Education-num', 'Marital-status', 'Occupation', 'Relationship', 'Race', 'Sex', 'Capital-gain', 'Capital-loss',
+df_train_X = df[['Age', 'Workclass', 'fnlwgt', 'Education', 'Education-num', 'Marital-status', 'Occupation', 'Relationship', 'Race', 'Sex', 'Capital-gain', 'Capital-loss',
               'Hours-per-week', 'Native-country']]
 
-df_test= df[['Salary']]
+df_train_y= df[['Salary']]
 
 print(df.head())
-df_x_train, df_x_test, df_y_train, df_y_test = train_test_split(df_train, df_test, test_size=0.3, random_state=42)
+df_x_train, df_x_test, df_y_train, df_y_test = train_test_split(df_train_X, df_train_y, test_size=0.3, random_state=42)
 
 x_train = df_x_train.values
 x_test = df_x_test.values
